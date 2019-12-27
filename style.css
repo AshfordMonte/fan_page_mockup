@@ -1,0 +1,31 @@
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+ol.center li {
+    text-align: left;
+    margin-left: 45%;
+}
+p {
+    text-align: center;
+}
+body {
+    background-color: white;
+    font-size: 1.35em;
+}
+.rush {
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px; 
+}
+h1 {
+    font-size: 2em;
+}
+.styledImage {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+h2 {
+    text-decoration: underline;
+}
