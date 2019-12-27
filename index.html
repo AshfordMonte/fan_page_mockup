@@ -12,36 +12,44 @@
 
     <body>
         <div class='center'>
-        <h1><a class='rush'>Rush</a> Fan Page!</h1>
+            <h1><a class='rush'>Rush</a> Fan Page!</h1>
         </div>
 
         <div align="center">
-        <img src = "http://www.ottawacitizen.com/cms/binary/11198514.jpg"
-             alt = "Rush in 1988"
-             class="styledImage"
+            <img src = "http://www.ottawacitizen.com/cms/binary/11198514.jpg"
+                 alt = "Rush in 1988"
+                class="styledImage"
         />
         </div>
 
-        <h2 class='center'>Bio</h2>
+        <div class='border'>
+            <h2 class='center'>Bio</h2>
 
-        <p> Rush was a Canadian rock band formed in 1968. Rush consisted of Geddy Lee (bass, vocals, 
-            keyboard), Alex Lifeson (guitars), and Neil Peart (drums, percussion) who joined the classic lineup
-            in 1974.
-        </p>
-        <br>
-        <p> Rush is known for its musicianship, complex compositions, and eclectic lyrical motifs drawing
-             heavily on science fiction, fantasy, and philosophy. The band's musical style has 
-             changed several times over the years, from a blues-inspired hard rock beginning, later moving into 
-             progressive rock, and including a period marked by heavy use of synthesizers.
-        </p>
-        <p> Some notable albums include 'Hemispheres', 'Rush', 'Fly by Night', '2112', and their most 
-            successful album 'Moving Pictures' which includes their infamous song 'Tom Sawyer'.
-        </p>
-        <br>
-        <p>
-            Check out Rush on 
-            <a href= "https://www.facebook.com/rushtheband/" target="_blank">Facebook</a>
-        </p>
+            <p> 
+                Rush was a Canadian rock band formed in 1968. Rush consisted of Geddy Lee (bass, vocals, 
+                keyboard), Alex Lifeson (guitars), and Neil Peart (drums, percussion) who joined the classic lineup
+                in 1974.
+            </p>
+            <br>
+            <p> 
+                Rush is known for its musicianship, complex compositions, and eclectic lyrical motifs drawing 
+                heavily on science fiction, fantasy, and philosophy. The band's musical style has 
+                changed several times over the years, from a blues-inspired hard rock beginning, later moving into 
+                progressive rock, and including a period marked by heavy use of synthesizers.
+            
+            </p>
+
+            <p> 
+                Some notable albums include 'Hemispheres', 'Rush', 'Fly by Night', '2112', and their most 
+                successful album 'Moving Pictures' which includes their infamous song 'Tom Sawyer'.
+        
+            </p>
+            <br>
+            <p>
+                Check out Rush on 
+                <a href= "https://www.facebook.com/rushtheband/" target="_blank">Facebook</a>
+            </p>
+        </div>
 
         <h2 class='center'>Members:</h2>
 
@@ -54,14 +62,38 @@
         <h2 class='center'>Favorite Song:</h2>
         <p class='center'>La Villa Strangiato</p>
 
+        <!--Adds youtube video to website-->
         <div align="center">
-        <iframe width="560" height="315" class='centered'
-        src="https://www.youtube.com/embed/UNilsLf6eW4" frameborder="0" 
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+            <iframe width="560" height="315" class='centered'
+            src="https://www.youtube.com/embed/UNilsLf6eW4" frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
         </div>
 
-    </body>
+        <h2 class='center'>Check Out the Members</h2>
 
+        <!--Buttons that change image with id "band"-->
+        <div align="center">
+            <button id='button1' class='button'>Rush</button>
+            <button id='button2' class='button'>Geddy Lee</button>
+            <button id='button3' class='button'>Alex Lifeson</button>
+            <button id='button4' class='button'>Neil Peart</button>
+        </div>
+
+        <br>
+
+        <div align="center">
+            <img src = "https://ichef.bbci.co.uk/images/ic/960x540/p01bqsqd.jpg"
+                 alt = "The classic Rush lineup"
+                 id = "band"
+                 width="720"
+                 height="480"
+            />
+        </div>
+
+        <!--Links to JavaScript file-->
+        <script type="text/javascript" src="javascript.js"></script>
+
+    </body>
 
 </html>

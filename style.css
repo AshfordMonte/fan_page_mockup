@@ -4,7 +4,7 @@
 }
 ol.center li {
     text-align: left;
-    margin-left: 45%;
+    margin-left: 44%;
 }
 p {
     text-align: center;
@@ -28,4 +28,18 @@ h1 {
 }
 h2 {
     text-decoration: underline;
+}
+.button{
+    font-size: 1.05em;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.border{
+    border: 1px solid black;
 }
