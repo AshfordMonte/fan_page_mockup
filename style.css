@@ -2,10 +2,6 @@
     text-align: center;
     list-style-position: inside;
 }
-ol.center li {
-    text-align: left;
-    margin-left: 44%;
-}
 p {
     text-align: center;
 }
@@ -42,4 +38,8 @@ h2 {
 }
 .border{
     border: 1px solid black;
+}
+ol{
+    display:table;
+    margin:0 auto;
 }
