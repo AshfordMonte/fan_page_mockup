@@ -43,3 +43,8 @@ ol{
     display:table;
     margin:0 auto;
 }
+br{
+    display: block;
+    content: "";
+    margin-top: 3px;
+}
